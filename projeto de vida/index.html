@@ -1,40 +1,116 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto de Vida</title>
+    <title>Meus objetivos do ano</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-        <section class="conteudo-principal">
-        <h2 class="titulo-principal">Meus Objetivos do ano<span>_</span></h2>
-        <div class="botoes">
-            <button class="botao ativo">Terminar o Ensino Medio</button>
-            <button class="botao ativo">Mudar de Cidade</button>
-            <button class="botao ativo">Entrar e Passar no Vestibular</button>
-            <button class="botao ativo">Construir Minha Casa</button>
+    <section class="conteudo-principal">
+        <h2 class="titulo-principal">Meus objetivos do ano<span>_</span></h2>
+        <div class="conteudo">
+            <div class="botoes">
+                <button class="botao ativo">Terminar o ensino medio</button>
+                <button class="botao">Mudar de Cidade</button>
+                <button class="botao">Entrar e Passar no ventibular</button>
+                <button class="botao">Construir minha Casa</button>
+            </div>
+            <div class="abas-textos">
+                <div class="aba-conteudo ativo">
+                    <h3 class="aba-conteudo-titulo-principal">Ir para a escola, tirar notas boas</h3>
+                    <h4 class="aba-conteudo-titulo-secundario">Ate o final de 2024</h4>
+                    <div class="contador">
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="dias0"></p>
+                            <p class="contador-digito-texto"> 365 dias</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="horas0"></p>
+                            <p class="contador-digito-texto"> 7 horas</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="min0"></p>
+                            <p class="contador-digito-texto">9 min</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="seg0"></p>
+                            <p class="contador-digito-texto">00 seg</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="aba-conteudo">
+                    <h3 class="aba-conteudo-titulo-principal">Procurar um trablho e uma casa</h3>
+                    <h4 class="aba-conteudo-titulo-secundario">Ate 3 anos conseguir</h4>
+                    <div class="contador">
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="dias1"></p>
+                            <p class="contador-digito-texto">1095 dias</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="horas1"></p>
+                            <p class="contador-digito-texto">5 horas</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="min1"></p>
+                            <p class="contador-digito-texto">8 min</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="seg1"></p>
+                            <p class="contador-digito-texto">00 seg</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="aba-conteudo">
+                    <h3 class="aba-conteudo-titulo-principal">Focar mais no que for preciso</h3>
+                    <h4 class="aba-conteudo-titulo-secundario">ate 5 anos</h4>
+                    <div class="contador">
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="dias2"></p>
+                            <p class="contador-digito-texto">1825dias</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="horas2"></p>
+                            <p class="contador-digito-texto">10 horas</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="min2"></p>
+                            <p class="contador-digito-texto">5 min</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="seg2"></p>
+                            <p class="contador-digito-texto">00 seg</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="aba-conteudo">
+                    <h3 class="aba-conteudo-titulo-principal">Conseguir guardar dinheiro</h3>
+                    <h4 class="aba-conteudo-titulo-secundario">Ate 4 anos</h4>
+                    <div class="contador">
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="dias3"></p>
+                            <p class="contador-digito-texto">1460 dias</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="horas3"></p>
+                            <p class="contador-digito-texto">12 horas</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="min3"></p>
+                            <p class="contador-digito-texto">13 min</p>
+                        </div>
+                        <div class="contador-digito">
+                            <p class="contador-digito-numero" id="seg3"></p>
+                            <p class="contador-digito-texto">00 seg</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      <div class="aba-conteudo ativo">
-         <h3 class="aba-conteudo-titulo-principal">Ir para a escola, tirar notas boas</h3>
-         <h4 class="aba-conteudo-titulo-secundario">Ate o final de 2024</h4>
-         <div class="contador"></div>
-      </div>
-      <div class="aba-conteudo">
-         <h3 class="aba-conteudo-titulo-principal">Procurar um trabalho e uma casa</h3>
-         <h4 class="aba-conteudo-titulo-secundario">Ate 3 anos conseguir ir</h4>
-         <div class="contador"></div>
-      </div>
-      <div class="aba-conteudo">
-         <h3 class="aba-conteudo-titulo-principal">Focar mais no que for preciso</h3>
-         <h4 class="aba-conteudo-titulo-secundario">Ate 5 anos</h4>
-         <div class="contador"></div>
-      </div>
-      <div class="aba-conteudo">
-         <h3 class="aba-conteudo-titulo-principal">Consegiur guardar dinheiro todo mês</h3>  
-         <h4 class="aba-conteudo-titulo-secundario">Ate 4 anos</h4>
-         <div class="contador"></div>  
-      </div>
-     </section>
+    </section>
+    <script src="main.js"></script>
 </body>
+
 </html>
